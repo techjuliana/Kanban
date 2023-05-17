@@ -16,11 +16,17 @@ Visão Tecnica do que encontrará no projeto:
 
 
 
-## Getting Started
-First, run the development server:
+## Development
 
 ```bash
-yarn install
+npm install
+npm run dev
+```
+## Production
+```bash
+npm install
+npm run build
+npm run start
 ```
 
 ## Tech Juliana
