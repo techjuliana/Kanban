@@ -52,7 +52,7 @@ function Task({
         cursor="grab"
         fontWeight="bold"
         userSelect="none"
-        bgColor={task.color}
+        bgColor="purple.400"
         opacity={isDragging ? 0.5 : 1}
       >
         <IconButton

@@ -8,34 +8,34 @@ function useTaskCollection() {
   return useLocalStorage<{
     [key in ColumnType]: TaskModel[];
   }>('tasks', {
-    Todo: [
+    Atividades: [
       {
         id: uuidv4(),
-        column: ColumnType.TO_DO,
+        column: ColumnType.ATIVIDADES,
         title: 'Atividade exemplo',
         color: 'blue.300',
       },
     ],
-    'In Progress': [
+    'Em andamento': [
       {
         id: uuidv4(),
-        column: ColumnType.IN_PROGRESS,
+        column: ColumnType.EM_ANDAMENTO,
         title: 'Atividade exemplo',
         color: 'yellow.300',
       },
     ],
-    Blocked: [
+    Bloqueado: [
       {
         id: uuidv4(),
-        column: ColumnType.BLOCKED,
+        column: ColumnType.BLOQUEADO,
         title: 'Atividade exemplo',
         color: 'red.300',
       },
     ],
-    Completed: [
+    Concluido: [
       {
         id: uuidv4(),
-        column: ColumnType.COMPLETED,
+        column: ColumnType.CONCLUIDO,
         title: 'Atividade exemplo',
         color: 'green.300',
       },

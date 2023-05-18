@@ -2,17 +2,20 @@
 Kanban 
 
 ## Sobre o projeto
-Desenvolvido para treinar as habilidades de React e SASS
+Desenvolvido para treinar as habilidades
 
 Visão Tecnica do que encontrará no projeto:
-- SASS
-- JavaScript
+- Chakra UI
+- TypeScript
 - ReactJS
+- Lottiefiles
+- Vite
+- LocalStorage
 
-### Screen WEB ⬇️
+### Screen Light⬇️
 
 
-### Screen MOBILE ⬇️
+### Screen Dark ⬇️
 
 
 

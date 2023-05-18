@@ -13,10 +13,10 @@ import { ColumnType } from '../utils/enums';
 import Task from './Task';
 
 const ColumnColorScheme: Record<ColumnType, string> = {
-  Todo: 'blue',
-  'In Progress': 'blue',
-  Blocked: 'blue',
-  Completed: 'blue',
+  Atividades: 'blue',
+  'Em andamento': 'blue',
+  Bloqueado: 'blue',
+  Concluido: 'blue',
 };
 
 function Column({ column }: { column: ColumnType }) {

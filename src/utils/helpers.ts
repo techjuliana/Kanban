@@ -1,9 +1,5 @@
 const colors = [
-  'yellow',
-  'green',
-  'teal',
   'purple',
-  'pink',
 ];
 
 export function swap<T>(arr: T[], i: number, j: number): T[] {
