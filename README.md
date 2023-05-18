@@ -12,11 +12,12 @@ Visão Tecnica do que encontrará no projeto:
 - Vite
 - LocalStorage
 
-### Screen Light⬇️
+### Screen Light ⬇️
+<img src="https://raw.githubusercontent.com/techjuliana/Kanban/master/design/1.png" >
 
 
 ### Screen Dark ⬇️
-
+<img src="https://raw.githubusercontent.com/techjuliana/Kanban/master/design/2.png" >
 
 
 ## Development
